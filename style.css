@@ -1,0 +1,249 @@
+@font-face {
+	font-family: futura;
+	src: url(fonts/futurafuturislightc.otf);
+}
+body {
+	margin: 0;
+}
+.inner {
+	width: 1366px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header>.inner {
+	min-height: 200px;
+}
+.logo {
+	margin: 19px 0 19px 25px;
+	float: left;
+}
+.data h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+	font-family: futura;
+	color: #e51e25;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	width: 650px;
+	margin: 20px 0 0 30px;
+}	
+.data {
+	float: left;
+	overflow: hidden;
+	border: 1px solid #000;
+	width: 700px;
+	margin: 60px;
+	border-radius: 20px;
+}
+.data_contacts {
+	overflow: hidden;
+	margin: 15px;
+}
+.contact {
+	width: 200px;
+	float: left;
+	margin-left: 30px;
+}
+.contact:last-child {
+	width: 180px;
+}
+.contact p {
+	margin: 0;
+	padding: 0;
+	font-family: futura;
+	font-size: 20px;
+	color: #e51e25;
+}
+.contact a {
+	text-decoration: none;
+	font-family: futura;
+	font-size: 20px;
+	color: #e51e25;
+}
+.title {
+	text-align: center;
+	overflow: hidden;
+}
+.content h1 {
+	font-family: futura;
+	font-size: 40px;
+	color: #000;
+}
+.title h2 {
+	font-family: futura;
+	font-weight: normal;
+	font-size: 25px;
+	color: #000;
+}
+.title a {
+	text-decoration: none;
+}
+.title input {
+	background: none;
+	border: 1px solid #e51e25;
+	outline: none;
+	height: 60px;
+	width: 400px;
+	color: #e51e25;
+	font-size: 16px;
+	font-weight: futura;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 20px;
+}
+.title input:hover { 
+	background: #f23f45;
+	color: #fff; 
+}
+.title input:active {
+	background: #ff0009;
+	box-shadow: 0 3px #ff0009 inset;
+}
+.border {
+	border: 1px solid #000;
+	border-radius: 20px;
+	margin: 30px 120px;
+	overflow: hidden;
+}
+.details {
+	border-bottom: 2px solid #000;	
+}
+.det {
+	margin-left: 20px;
+}
+.content p {
+	font-family: futura;
+	font-size: 23px;
+	color: #000;
+}
+.transfer_info {
+	overflow: hidden;
+}
+.transfer_info h1 {
+	margin-left: 20px;
+}
+.data_time {
+	overflow: hidden;
+	border-bottom: 1px solid #000;		
+}
+.data_item {
+	float: left;
+	margin-left: 50px;
+}
+.data_item:first-child {
+	margin-left: 20px;
+}
+.data_item h2 {
+	font-family: futura;
+	font-weight: normal;
+	font-size: 22px;
+	color: #000;
+}
+.pick {
+	overflow: hidden;
+	border-bottom: 1px solid #000;	
+}
+.item {
+	margin-left: 20px;
+}
+.vehicle {
+	overflow: hidden;
+	border-bottom: 1px solid #000;	
+}
+.v_item {
+	float: left;
+	margin-left: 20px;
+}
+.price {
+	margin-left: 20px;
+}
+.price p b {
+	border-bottom: 1px solid black;
+}
+.all {
+	float: left;
+	margin-left: 50px;
+}
+.bg_content {
+	float: right;
+	margin-top: 600px;
+}
+.footer>.inner {
+	min-height: 200px;
+}
+.foot {
+	overflow: hidden;
+	border: 1px solid #000;
+	border-radius: 20px;
+	margin: 20px 0 20px 120px;
+	width: 1130px;
+}
+.offer, .contacts {
+	float: left;
+}
+.offer {
+	margin: 30px 0 30px 150px;
+	width: 350px;
+	overflow: hidden;
+}
+.conth1 {
+	margin-left: 30px;
+}
+.contacts {
+	margin: 30px 0 30px 50px;
+	width: 550px;
+}
+.footer h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	font-family: futura;
+	color: #e51e25;
+	font-weight: normal;
+	text-transform: uppercase;
+	width: 650px;
+}
+.footer a {
+	text-decoration: none;
+	font-family: futura;
+	color: #e51e25;
+	margin-left: 20px;
+}
+.footer p {
+	margin: 0;
+	padding: 0;
+	font-family: futura;
+	font-size: 25px;
+	color: #e51e25;
+	margin-top: 30px;
+}
+.offer h1 {
+	margin-left: 50px;
+}
+.contacts h1 {
+	margin-left: 100px;
+}
+.footer input {
+	background: none;
+	border: 1px solid #e51e25;
+	outline: none;
+	height: 60px;
+	width: 300px;
+	color: #e51e25;
+	font-size: 16px;
+	font-weight: futura;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 20px;
+	margin: 10px 416px 30px;
+}
+.footer input:hover { 
+	background: #f23f45;
+	color: #fff; 
+}
+.footer input:active {
+	background: #ff0009;
+	box-shadow: 0 3px #ff0009 inset;
+}
